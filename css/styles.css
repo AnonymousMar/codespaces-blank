@@ -1,0 +1,218 @@
+:root {
+    --title-color : #2E2F42:
+}
+:root {
+    --typle-ht:cal(24/16):
+}
+:root {
+    --typle-height:cal(24/20):
+}
+:root {
+    --title-height:cal(60/56):
+}
+:root {
+    --title-ht:cal(40/36):
+}
+/*-------------HEADER-------------- */
+body{
+    color: black;
+    font-family: 'Roboto',sans-serif;}
+.web{
+    color: #4D5AE5;
+}
+.studio{
+    color:var(--title-color);
+}
+/*---------------BUTTON------------ */
+.header-list :hover,
+.header-list:focus{
+color: #ff6c00;
+}
+.button-list:hover,
+.button-list:focus{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+/* --------HEADER-------- */
+.link{
+    font-family:inherit ;
+    font-size: 16px;
+    line-height:var(--typle-ht);
+    line-height: 128%;
+    box-align: Left;
+    vertical-align: Top;
+    letter-spacing: 2%;
+    color:#434455 ;
+}
+/*--------------STUDIO---------- */
+.solutions{
+    background:#2E2F42;
+}
+.solutions-title{
+    font-family: Roboto,sans-serif;
+    font-size: 56px;
+    line-height: var(--title-height);
+    line-height: 91%;
+    box-align:Center;
+    box-align: Top;
+    Letter-spacing: 2%;
+    color:#FFFFFF;
+}
+/*-------------BUTTON------------- */
+.btn{
+        font-family:inherit;
+        font-size: 16px;
+        line-height: cal(19/16);
+        line-height: 100%;
+        box-align: Left;
+        vertical-align: Center;
+        letter-spacing: 4%;
+        cursor: pointer;
+}
+.btn{
+    background-color: #4D5AE5; 
+    color:#FFFFFF;
+}
+.button{
+    font-family: inherit;
+    font-size: 16px;
+    line-height: calc(24/16);
+    line-height: 128%;
+    box-align: Center;
+    vertical-align: Center;
+    letter-spacing: 4%;
+    cursor: pointer;
+    background: #E7E9FC;
+    color:#4D5AE5 ;
+}
+    /*------------PORTFOLIO------------- */
+    .visually-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space:nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+    /* ---------BUTTON--------- */
+    .Button{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space:nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden; 
+    }
+    /* --------------STUDIO---------- */
+    .title-team{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space:nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;   
+    }
+    title-list{
+        font-family:Roboto,sans-serif;
+        font-size: 20px;
+        line-height:var(--typle-height);
+        line-height: 102%;
+        box-align: Left;
+        vertical-align: Top;
+        letter-spacing: 2%;
+        color:var(--title-color);
+    }
+    .text{
+        font-family: Roboto,sans-serif;
+        font-size: 16px;
+        line-height: var(--typle-ht);
+        line-height: 128%;
+        box-align: Left;
+        vertical-align: Top;
+        letter-spacing: 2%;
+        color:var(--title-color);
+    }
+    /*-----------LIST-------- */
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/* FOTO */
+.kann-title{
+    font-family:Roboto,sans-serif;
+font-size: 36px;
+line-height: var(--title-ht);
+line-height: 95%;
+box-align: Center;
+vertical-align: Top;
+letter-spacing: 2%;
+color: var(--title-color);
+}
+/*---------CONTACTS-----------*/
+.team-title{
+    background:#F4F4FD ;
+}
+.title-team{
+    font-family: Roboto,sans-serif;
+font-size: 36px;
+line-height:var(--title-ht);
+line-height: 95%;
+box-align: Center;
+vertical-align: Top;
+letter-spacing: 2%;
+color:var(--title-color);
+}
+.Contacts{
+    background:#FFFFFF ;
+}
+.name{
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    line-height:var(--typle-height);
+    line-height: 102%;
+    box-align: Center;
+    vertical-align: Top;
+    letter-spacing: 2%;
+    color:var(--title-color);
+}
+.work{
+    font-family:Roboto,sans-serif ;
+    font-size: 16px;
+    line-height: calc(16/24);
+    line-height: 128%;
+    box-align: Center;
+    vertical-align: Top;
+    letter-spacing: 2%;
+    color:var(--title-color) ; 
+}
+/*----------FOOTER---------- */
+.footer{
+    background-color: #2E2F42;
+}
+.studio-footer{
+    color: #FFFFFF;
+}
+.end-text{
+    font-family:Roboto,sans-serif;
+    font-size: 16px;
+    line-height: var(--typle-ht);
+    line-height: 128%;
+    box-align: Left;
+    vertical-align: Top;
+    letter-spacing: 2%;
+    color:#E7E9FC ;
+}
